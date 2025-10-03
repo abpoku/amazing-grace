@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health & Safety - Amazing Grace Kiddie Kare</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(to bottom, #ffffff, #f0f9ff);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Navigation */
+        nav {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid #e5e5e5;
+            padding: 15px 0;
+        }
+        
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: bold;
+            font-size: 18px;
+            text-decoration: none;
+            color: #333;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            align-items: center;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #555;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #000;
+        }
+        
+        .back-home {
+            background: #fbbf24;
+            color: #000;
+            padding: 8px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        
+        .back-home:hover {
+            background: #f59e0b;
+        }
+        
+        /* Main Content */
+        .main-content {
+            padding: 60px 0;
+        }
+        
+        h1 {
+            font-size: 42px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #111;
+        }
+        
+        h4 {
+            font-size: 18px;
+            color: #fbbf24;
+            margin-bottom: 8px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #555;
+            line-height: 1.7;
+        }
+        
+        .intro-text {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 50px;
+            color: #666;
+            font-size: 18px;
+        }
+        
+        /* Safety Cards */
+        .safety-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .safety-card {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .safety-item {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 12px;
+            border-left: 4px solid #fbbf24;
+        }
+        
+        .safety-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .safety-icon {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        
+        /* Footer */
+        footer {
+            border-top: 1px solid #e5e5e5;
+            padding: 40px 0;
+            margin-top: 80px;
+            background: white;
+        }
+        
+        .footer-content {
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            h1 {
+                font-size: 32px;
+            }
+            
+            .safety-card {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span>🌟</span>
+                <span>Amazing Grace Kiddie Kare</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="careers.html">Our Team</a></li>
+                <li><a href="health-safety.html" style="color: #fbbf24; font-weight: 600;">Health & Safety</a></li>
+                <li><a href="parent-engagement.html">Parent Engagement</a></li>
+            </ul>
+            <a href="index.html" class="back-home">Back to Home</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <h1>Health & Safety Measures</h1>
+            <p class="intro-text">Your child's health and safety is our top priority. We maintain the highest standards of cleanliness, safety, and care.</p>
+            
+            <div class="safety-container">
+                <div class="safety-card">
+                    <p style="margin-bottom: 30px; font-size: 18px;"><strong>Our health and safety practices include:</strong></p>
+                    
+                    <div class="safety-item">
+                        <h4><span class="safety-icon">🧼</span> Clean and Sanitary Environments</h4>
+                        <p>Classrooms, toys, and equipment are cleaned and disinfected daily to prevent the spread of germs.</p>
+                    </div>
+                    
+                    <div class="safety-item">
+                        <h4><span class="safety-icon">🤲</span> Healthy Practices</h4>
+                        <p>Handwashing is built into our daily routine, especially before meals and after bathroom use or outdoor play.</p>
+                    </div>
+                    
+                    <div class="safety-item">
+                        <h4><span class="safety-icon">🍎</span> Nutrition and Meals</h4>
+                        <p>Children are provided with balanced meals and snacks that meet state guidelines and support healthy growth.</p>
+                    </div>
+                    
+                    <div class="safety-item">
+                        <h4><span class="safety-icon">🏃</span> Safe Indoor and Outdoor Spaces</h4>
+                        <p>Our facility, playground, and equipment meet all safety standards required by state licensing and EEC regulations.</p>
+                    </div>
+                    
+                    <div class="safety-item">
+                        <h4><span class="safety-icon">🚨</span> Emergency Preparedness</h4>
+                        <p>Staff are trained in CPR, First Aid, and emergency response. Fire drills and safety procedures are practiced regularly.</p>
+                    </div>
+                    
+                    <div class="safety-item">
+                        <h4><span class="safety-icon">🏥</span> Illness Policy</h4>
+                        <p>We follow strict illness guidelines to protect children and staff, and parents are notified promptly if their child becomes ill during the day.</p>
+                    </div>
+                    
+                    <div class="safety-item">
+                        <h4><span class="safety-icon">🔒</span> Secure Environment</h4>
+                        <p>Entry to the center is monitored, and children are only released to authorized caregivers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2025 Amazing Grace Kiddie Kare. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
